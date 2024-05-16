@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(90deg, rgb(40, 55, 255) 0%, rgb(33, 37, 41) 70%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(206, 205, 205);
+}
+
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-toggler {
+    background-color: rgb(206, 205, 205);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, rgb(40, 55, 255) 0%, rgb(33, 37, 41) 90%);
+
+}
+
+.card {
+    background: linear-gradient(270deg, rgb(40, 55, 255) 0%, rgb(33, 37, 41) 90%);
+    color: aquamarine;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+.slid-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer, 
+.btn-outline-primary {
+    background: linear-gradient(270deg, rgb(40, 55, 255) 0%, rgb(33, 37, 41) 90%);
+    
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-me {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    
+}
+
+@keyframes myAnim {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
